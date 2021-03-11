@@ -1,0 +1,60 @@
+{
+  "author": "BlueStarBurst",
+  "main": "server.js",
+  "scripts": {
+    "run-all": "npm-run-all -p start react",
+    "start": "node server.js",
+    "react": "react-scripts start"
+  },
+  "dependencies": {
+    "@react-three/drei": "^2.2.13",
+    "babel-register": "^6.26.0",
+    "bootstrap": "^4.5.3",
+    "bootstrap-icons": "^1.2.2",
+    "express": "^4.17.1",
+    "node": "^15.4.0",
+    "node-turn": "^0.0.6",
+    "react": "^17.0.1",
+    "react-bootstrap": "^1.4.0",
+    "react-bootstrap-icons": "^1.2.2",
+    "react-dom": "^17.0.1",
+    "react-scripts": "^4.0.1",
+    "react-three-fiber": "^5.3.10",
+    "socket.io-stream": "^0.9.1",
+    "socketio": "^1.0.0",
+    "three": "^0.124.0",
+    "three-gltf-loader": "^1.111.0",
+    "windows-joycon": "https://github.com/BlueStarBurst/windows-joycon.git"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/register": "^7.12.10",
+    "@webpack-cli/init": "^1.1.1",
+    "copy-webpack-plugin": "^7.0.0",
+    "cross-env": "^7.0.3",
+    "css-loader": "^5.0.1",
+    "electron": "^11.1.1",
+    "electron-builder": "^22.9.1",
+    "electron-notarize": "^1.0.0",
+    "electron-rebuild": "^2.3.4",
+    "html-webpack-plugin": "^4.5.0",
+    "npm-run-all": "^4.1.5",
+    "rimraf": "^3.0.2",
+    "style-loader": "^2.0.0"
+  },
+  "version": "1.0.0",
+  "description": "React Node-Hid Joycon example",
+  "name": "joycon-project"
+}
